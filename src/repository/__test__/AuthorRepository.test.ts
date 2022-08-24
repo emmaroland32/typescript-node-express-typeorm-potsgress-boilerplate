@@ -1,6 +1,5 @@
 import AuthorRepository from "../AuthorRepository";
-import { StatusCodes } from "http-status-codes";
-import { TestDBHelper } from "../../config/database/test.tyeorm";
+import { TestDBHelper } from "../../config/database/test.typeorm";
 import { AuthorEntity } from "../../entity/Author";
 
 beforeAll(async () => {
