@@ -4,8 +4,6 @@ import Database from "better-sqlite3";
 export class TestDBHelper {
   private static _instance: TestDBHelper;
 
-  private constructor() {}
-
   public static get instance(): TestDBHelper {
     if (!this._instance) this._instance = new TestDBHelper();
 
